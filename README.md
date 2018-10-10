@@ -1,7 +1,7 @@
-var room = HBInit({ roomName: "My room", maxPlayers: 16 });
+var room = HBInit({ roomName: "***BIG x3***", maxPlayers: 10 });
 room.setDefaultStadium("Big");
-room.setScoreLimit(5);
-room.setTimeLimit(0);
+room.setScoreLimit(3);
+room.setTimeLimit(3);
 
 // If there are no admins left in the room give admin to one of the remaining players.
 function updateAdmins() { 
